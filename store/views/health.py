@@ -14,7 +14,7 @@ def health_check(request):
     
 @api_view(['GET'])
 @permission_classes([AllowAny])
-def health_check(request):
+def testing_cicd(request):
     return Response(
         {'Service': 'ShopApi',
          'status': 'ok',
